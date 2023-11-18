@@ -1,0 +1,127 @@
+/* Estilos para o corpo, cabeçalho, e rodapé */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #B31312;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0 0 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 30px 20px;
+  }
+  
+  /* Estilos para o banner */
+  #banner {
+    text-align: center;
+    background-image: url('./pngtree-burger-restaurant-food-background-image_2409560.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+  }
+  
+  #banner h2 {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+
+  #banner p {
+    font-size: 1.3rem;
+    border: 1px solid rgb(220, 141, 38);
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(220, 141, 38);
+  }
+  
+  /* Estilos para o menu */
+  .cardapio-item {
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+
+  .cardapio-item img {
+    width: 40%;
+    height: auto;
+  }
+  
+  #sobre-nos {
+    padding: 3rem 1rem 0;
+  }
+
+  #footer {
+    padding: 20px;
+  }
+
+
+  /* Estilos para o rodapé */
+  footer {
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+/* Resto do CSS permanece igual */
+
+/* Estilos para o formulário de contato */
+.contact-info,
+.contact-form {
+  margin-bottom: 30px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+  
